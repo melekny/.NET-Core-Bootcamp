@@ -1,0 +1,13 @@
+﻿@model List<CustomerViewModel>
+
+    @foreach( var item in Model)
+    {
+        <p>@item.FirstName.ToUpper()</p>
+        <p>@item.LastName.ToUpper()</p>
+        <p>@item.Address</p>
+        <p>@item.Age</p>
+        <p>@item.Id</p>
+        <p>@item.BirthDate.ToString("dd.MM.yy")</p>
+        <p>@item.Description</p>    
+    }
+
