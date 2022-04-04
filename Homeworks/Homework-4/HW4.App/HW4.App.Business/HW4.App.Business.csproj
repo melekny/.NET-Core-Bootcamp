@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.15">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HW4.App.DataAccess.EF.Repository\HW4.App.DataAccess.EntityFramework.Repository.csproj" />
+    <ProjectReference Include="..\HW4.App.DataAccess.EF\HW4.App.DataAccess.EntityFramework.csproj" />
+    <ProjectReference Include="..\HW4.App.Domain\HW4.App.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
