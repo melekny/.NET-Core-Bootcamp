@@ -1,2 +1,2 @@
 # .NET-Core-Bootcamp
-This repo contains project codes of .NET Core Bootcamp's classes.
+This repo contains project codes and homeworks of .NET Core Bootcamp lessons.
